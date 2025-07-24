@@ -90,7 +90,7 @@ export default function NewAdvertPage() {
           <Input
             type="text"
             name="name"
-            placeholder="Nombre"
+            placeholder="Nombre del producto"
             value={name}
             onChange={handleNameChange}
             autoComplete="off"
@@ -117,7 +117,7 @@ export default function NewAdvertPage() {
           <span className="flex items-center gap-1">
             Precio <Euro className="stroke-primary" size={16} />
           </span>
-          <Input type="number" name="price" defaultValue={0} />
+          <Input type="number" name="price" placeholder="Ej: 35"  />
         </FormField>
         <FormField>
           Tags (al menos una)
@@ -135,7 +135,7 @@ export default function NewAdvertPage() {
           className="w-full sm:col-span-2"
         >
           {loading && <Loader2 className="animate-spin" />}
-          {loading ? "Por favor, espera" : "Crear anuncio"}
+          {loading ? "Publicando anuncio..." : "Publicar anuncio"}
         </Button>
       </form>
     </div>

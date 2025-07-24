@@ -32,11 +32,11 @@ export default function Header() {
           <ul className="flex items-center gap-4">
             <li className="hidden sm:list-item">
               <PageLink to="/adverts" end>
-                Adverts List
+                Anuncios
               </PageLink>
             </li>
             <li>
-              <PageLink to="/adverts/new">New Advert</PageLink>
+              <PageLink to="/adverts/new">Nuevo anuncio</PageLink>
             </li>
           </ul>
         </nav>

@@ -50,16 +50,16 @@ export default function FiltersInputs({
   return (
     <div className="grid gap-4 gap-x-6 border-b pb-4 sm:grid-cols-2">
       <FormField>
-        Name
+        Nombre
         <Input
           type="text"
-          placeholder="Name"
+          placeholder="Nombre del producto"
           autoComplete="off"
           onChange={handleNameChange}
         />
       </FormField>
       <FormField>
-        For sale or Looking to buy?
+        ¿Se vende o se busca?
         <RadioGroup
           className="flex items-center py-2.5"
           defaultValue="all"
@@ -67,15 +67,15 @@ export default function FiltersInputs({
         >
           <Label className="flex items-center gap-2">
             <RadioGroupItem value="sale" />
-            For sale
+            Se vende
           </Label>
           <Label className="flex items-center gap-2">
             <RadioGroupItem value="buy" />
-            Looking to buy
+            Se busca
           </Label>
           <Label className="flex items-center gap-2">
             <RadioGroupItem value="all" />
-            All
+            Todos
           </Label>
         </RadioGroup>
       </FormField>

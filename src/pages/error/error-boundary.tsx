@@ -32,10 +32,10 @@ export class ErrorBoundary extends Component<Props, State> {
             <div className="mb-8">
               <div className="bg-destructive mx-auto my-4 h-1 w-16"></div>
               <h2 className="text-accent-foreground mb-4 text-2xl font-semibold">
-                Something went wrong
+                Ups, algo ha fallado...
               </h2>
               <p className="text-muted-foreground mb-4">
-                An unexpected error has occurred. Our team has been notified.
+                Ha ocurrido un error inesperado. Nos pondremos a ello.
               </p>
               {this.state.error && (
                 <p className="text-muted-foreground bg-muted mb-4 rounded-lg p-4 text-sm">
@@ -45,7 +45,7 @@ export class ErrorBoundary extends Component<Props, State> {
             </div>
             <div className="space-x-4">
               <Button onClick={() => window.location.reload()}>
-                Refresh Page
+                Refrescar página
               </Button>
             </div>
           </div>

@@ -17,7 +17,7 @@ export default function PriceRange({
   return (
     <div className="grid gap-2">
       <div>
-        Price range <span>{`(${value.join(" - ")})`}</span>
+        Rango de precios <span>{`(${value.join(" - ")})`}</span>
       </div>
       <Slider
         className={className}

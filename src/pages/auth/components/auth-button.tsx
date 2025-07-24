@@ -18,11 +18,11 @@ function LogoutButton() {
       confirmation="Are you sure you want to log out?"
       confirmButton={
         <Button onClick={handleLogout} variant="destructive">
-          Yes
+          Sí
         </Button>
       }
     >
-      Log out
+      Cerrar sesión
     </ConfirmationButton>
   );
 }

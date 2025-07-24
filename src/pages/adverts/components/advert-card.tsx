@@ -22,13 +22,13 @@ export function AdvertCard({ advert }: AdvertCardProps) {
             {advert.name}
           </h3>
           <Badge className="self-start">
-            {advert.sale ? "for sale" : "looking to buy"}
+            {advert.sale ? "Se vende" : "Se busca"}
           </Badge>
         </div>
 
         <div className="flex gap-8">
           <div className="flex flex-col">
-            <span className="text-muted-foreground">Price</span>
+            <span className="text-muted-foreground">Precio</span>
             <span className="flex h-8 items-center gap-2 text-2xl">
               <Euro className="stroke-primary" />
               {advert.price}

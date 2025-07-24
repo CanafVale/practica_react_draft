@@ -105,7 +105,7 @@ export default function AdvertPage() {
   };
 
   if (!advert || loading) {
-    return "Loading....";
+    return "Cargando....";
   }
 
   return (
@@ -115,12 +115,12 @@ export default function AdvertPage() {
           {advert.name}
         </h2>
         <Badge className="self-start">
-          {advert.sale ? "for sale" : "looking to buy"}
+          {advert.sale ? "Se vende" : "Se busca"}
         </Badge>
       </div>
       <div className="flex gap-8">
         <div className="flex flex-col">
-          <span>Price</span>
+          <span>Precio</span>
           <AdvertPrice price={advert.price} />
         </div>
         <div className="flex grow flex-col">
@@ -131,7 +131,7 @@ export default function AdvertPage() {
       <AdvertPhoto photo={advert.photo} name={advert.name} />
       <ConfirmationButton
         variant="destructive"
-        confirmation="Are you sure you want to delete this advert?"
+        confirmation="¿Seguro que quieres borrar este anuncio?"
         confirmButton={
           <ActionButton
             onClick={handleDelete}
@@ -139,12 +139,12 @@ export default function AdvertPage() {
             disabled={deleting}
             loading={deleting}
           >
-            {deleting ? "" : "Yes"}
+            {deleting ? "" : "Sí"}
           </ActionButton>
         }
       >
         <Trash2 />
-        Delete
+        Borrar
       </ConfirmationButton>
     </article>
   );

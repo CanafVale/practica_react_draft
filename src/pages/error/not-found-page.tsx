@@ -9,14 +9,14 @@ export default function NotFoundPage() {
         <div className="mb-8">
           <div className="bg-primary mx-auto my-4 h-1 w-16"></div>
           <h2 className="text-accent-foreground mb-4 text-2xl font-semibold">
-            Page Not Found
+            Página no encontrada
           </h2>
           <p className="text-muted-foreground">
-            Oops! The page you're looking for doesn't exist or has been moved.
+            Oops! La página que estás buscando no existe o ha sido movida.
           </p>
         </div>
         <Button asChild>
-          <Link to="/adverts">Back to Home</Link>
+          <Link to="/adverts">Volver a inicio</Link>
         </Button>
       </div>
     </div>
