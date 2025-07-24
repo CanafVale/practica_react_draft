@@ -1,3 +1,6 @@
+// AnaPop - versión adaptada por Ana B.F.
+
+
 import { isAxiosError } from "axios";
 
 type ErrorCode =

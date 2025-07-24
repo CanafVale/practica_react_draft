@@ -1,3 +1,6 @@
+// AnaPop - versión adaptada por Ana B.F.
+
+
 import axios from "axios";
 import { ApiClientError } from "./error";
 

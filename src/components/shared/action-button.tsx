@@ -1,3 +1,6 @@
+// AnaPop - versión adaptada por Ana B.F.
+
+
 import type { ComponentProps } from "react";
 import { Button } from "../ui/button";
 import { Loader2 } from "lucide-react";

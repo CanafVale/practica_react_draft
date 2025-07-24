@@ -1,3 +1,5 @@
+// AnaPop - versión adaptada por Ana B.F.
+
 import { Button } from "../ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import { type ComponentProps, type ReactNode } from "react";

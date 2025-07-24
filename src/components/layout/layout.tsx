@@ -1,3 +1,6 @@
+// AnaPop - versión adaptada por Ana B.F.
+
+
 import type { ReactNode } from "react";
 import Header from "./header";
 import { Toaster } from "../ui/sonner";
