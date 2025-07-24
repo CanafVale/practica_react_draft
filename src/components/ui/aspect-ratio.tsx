@@ -1,4 +1,4 @@
-// AnaPop - versión adaptada por Ana B.F.
+//
 
 import * as AspectRatioPrimitive from "@radix-ui/react-aspect-ratio"
 

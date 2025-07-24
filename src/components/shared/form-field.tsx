@@ -1,4 +1,4 @@
-// AnaPop - versión adaptada por Ana B.F.
+//
 
 import { cn } from "@/lib/utils";
 import { Label } from "../ui/label";

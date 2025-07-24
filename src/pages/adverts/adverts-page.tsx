@@ -1,3 +1,5 @@
+//
+
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { Euro, SearchX } from "lucide-react";

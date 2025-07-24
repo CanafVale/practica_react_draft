@@ -1,4 +1,4 @@
-// AnaPop - versión adaptada por Ana B.F.
+//
 
 import * as React from "react"
 import * as SliderPrimitive from "@radix-ui/react-slider"

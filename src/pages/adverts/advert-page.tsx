@@ -1,3 +1,5 @@
+//
+
 import { useCallback, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import { deleteAdvert, getAdvert } from "./service";

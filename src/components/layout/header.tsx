@@ -1,4 +1,4 @@
-// AnaPop - versión adaptada por Ana B.F.
+//
 
 import { Link, NavLink } from "react-router";
 import AuthButton from "@/pages/auth/components/auth-button";

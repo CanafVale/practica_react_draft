@@ -1,4 +1,4 @@
-// AnaPop - versión adaptada por Ana B.F.
+//
 
 
 "use client"

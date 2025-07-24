@@ -1,3 +1,5 @@
+//
+
 type StorageKey = "auth";
 
 export default {

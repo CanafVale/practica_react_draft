@@ -1,3 +1,5 @@
+//
+
 export type Tags = string[];
 
 export interface Advert {

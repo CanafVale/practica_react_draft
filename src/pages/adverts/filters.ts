@@ -1,3 +1,5 @@
+//
+
 import type { Advert, Filters } from "./types";
 
 const filterByName = (name: Filters["name"]) => (advert: Advert) => {
