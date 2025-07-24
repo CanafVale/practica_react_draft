@@ -55,7 +55,7 @@ function LoginForm({
     <div>
       <form className="grid gap-4" onSubmit={handleSubmit}>
         <FormField>
-          Email
+          Tu email:
           <Input
             type="email"
             name="email"
@@ -66,7 +66,7 @@ function LoginForm({
           />
         </FormField>
         <FormField>
-          Password
+          Y tu contraseña:
           <Input
             type="password"
             name="password"
@@ -78,7 +78,7 @@ function LoginForm({
         </FormField>
         <FormField className="flex py-2">
           <Switch name="remember" value="remember" />
-          Remember me next time
+          Recuérdame!
         </FormField>
         <ActionButton
           disabled={!canSubmit || submitting}
@@ -88,7 +88,7 @@ function LoginForm({
           {submitting
             ? "Please wait"
             : canSubmit
-              ? "Log in to Nodepop"
+              ? "Log in en Anapop"
               : "Enter your credentials"}
         </ActionButton>
       </form>
@@ -108,7 +108,7 @@ export default function LoginPage() {
         <header className="grid justify-items-center gap-4">
           <Logo className="h-24 w-24" />
           <h1 className="text-center text-3xl font-bold sm:text-4xl">
-            Log in to Nodepop
+            Bienvenido a AnaPop
           </h1>
         </header>
         <LoginForm

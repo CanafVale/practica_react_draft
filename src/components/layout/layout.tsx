@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         {children}
       </main>
       <footer className="grid h-16 place-content-center border-t shadow">
-        @2025 Keepcoding
+        @El mercado de Ana 
       </footer>
       <Toaster position="bottom-center" richColors />
     </div>
