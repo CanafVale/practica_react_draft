@@ -1,3 +1,5 @@
+// AnaPop - versión adaptada por Ana B.F.
+
 import * as React from "react"
 import * as SwitchPrimitive from "@radix-ui/react-switch"
 

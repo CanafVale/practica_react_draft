@@ -1,3 +1,5 @@
+// AnaPop - versión adaptada por Ana B.F.
+
 import { useTheme } from "next-themes";
 import { Toaster as Sonner, type ToasterProps } from "sonner";
 

@@ -1,3 +1,5 @@
+// AnaPop - versión adaptada por Ana B.F.
+
 import { cn } from "@/lib/utils";
 
 function Skeleton({ className, ...props }: React.ComponentProps<"div">) {

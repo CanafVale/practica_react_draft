@@ -1,3 +1,5 @@
+// AnaPop - versión adaptada por Ana B.F.
+
 import type { SVGProps } from "react";
 
 const SVGComponent = (props: SVGProps<SVGSVGElement>) => (

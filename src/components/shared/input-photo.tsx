@@ -1,3 +1,5 @@
+// AnaPop - versión adaptada por Ana B.F.
+
 import {
   useRef,
   useState,
