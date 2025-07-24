@@ -86,10 +86,10 @@ function LoginForm({
           className="w-full"
         >
           {submitting
-            ? "Please wait"
+            ? "Estamos en ello, un momentito..."
             : canSubmit
               ? "Log in en Anapop"
-              : "Enter your credentials"}
+              : "Introduce tus datos para entrar"}
         </ActionButton>
       </form>
       <Toaster position="bottom-center" richColors />
@@ -110,6 +110,9 @@ export default function LoginPage() {
           <h1 className="text-center text-3xl font-bold sm:text-4xl">
             Bienvenido a AnaPop
           </h1>
+          <p className="text-center text-muted-foreground text-sm">
+            Publica, busca o vende... con estilo.
+          </p>
         </header>
         <LoginForm
           onSubmit={async ({ remember, ...credentials }) => {
