@@ -1,3 +1,24 @@
+# AnaPop 🛍️
+
+AnaPop es una aplicación web de compraventa de productos de segunda mano desarrollada con React, TypeScript y Vite.
+
+Permite a los usuarios registrarse, iniciar sesión, crear anuncios, aplicar filtros y visualizar productos detalladamente. 
+
+## Tecnologías utilizadas
+
+- React + TypeScript
+- Vite
+- TailwindCSS
+- ShadCN UI
+- Node.js (NestJS) como backend (API externa)
+
+*Créditos*
+Proyecto desarrollado como práctica del módulo de fundamentos de React en Keepcoding. 
+
+
+NOTAS:
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
