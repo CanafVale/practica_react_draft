@@ -16,13 +16,13 @@ function NoAdverts() {
         <Euro className="stroke-primary h-12 w-12" />
       </div>
       <div className="max-w-md space-y-2">
-        <h2 className="text-2xl font-semibold">No adverts yet</h2>
+        <h2 className="text-2xl font-semibold">¡Ups! Aún no hay anuncios</h2>
         <p className="text-muted-foreground">
-          Get started by creating your first advert. It's quick and easy!
+          Publica tu primer anuncio en AnaPop. ¡Es fácil y rápido!
         </p>
       </div>
       <Button asChild>
-        <Link to="new">Create First Advert</Link>
+        <Link to="new">Publica tu primer anuncio</Link>
       </Button>
     </div>
   );
@@ -35,10 +35,9 @@ function NoMatches() {
         <SearchX className="stroke-primary h-12 w-12" />
       </div>
       <div className="max-w-md space-y-2">
-        <h2 className="text-2xl font-semibold">No matches found</h2>
+        <h2 className="text-2xl font-semibold">Nada por aquí</h2>
         <p className="text-muted-foreground">
-          Try adjusting your filters or search criteria to find what you're
-          looking for
+          Prueba a cambiar los filtros o la búsqueda para ver más resultados
         </p>
       </div>
     </div>
@@ -88,7 +87,7 @@ export default function AdvertsPage() {
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-4xl">Adverts (filtered by)</h1>
+        <h1 className="text-4xl">¿Qué estamos buscando?</h1>
       </div>
       <FiltersInputs
         pricesRange={[Math.min(...prices), Math.max(...prices)]}
