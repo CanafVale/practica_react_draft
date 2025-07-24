@@ -80,24 +80,24 @@ export default function NewAdvertPage() {
 
   return (
     <div className="grid gap-4">
-      <h2 className="text-center text-3xl">Create your advert</h2>
+      <h2 className="text-center text-3xl">Publica tu anuncio</h2>
       <form
         className="grid gap-4 gap-x-6 sm:grid-cols-2"
         onSubmit={handleSubmit}
       >
         <FormField>
-          Name
+          Nombre
           <Input
             type="text"
             name="name"
-            placeholder="Name"
+            placeholder="Nombre"
             value={name}
             onChange={handleNameChange}
             autoComplete="off"
           />
         </FormField>
         <FormField>
-          For sale or Looking to buy?
+          ¿En venta o buscando comprar?
           <RadioGroup
             className="flex items-center p-2.5"
             name="sale"
@@ -105,27 +105,27 @@ export default function NewAdvertPage() {
           >
             <Label className="flex items-center gap-2">
               <RadioGroupItem value="sale" />
-              For sale
+              Para vender
             </Label>
             <Label className="flex items-center gap-2">
               <RadioGroupItem value="buy" />
-              Looking to buy
+              Buscando comprar
             </Label>
           </RadioGroup>
         </FormField>
         <FormField>
           <span className="flex items-center gap-1">
-            Price <Euro className="stroke-primary" size={16} />
+            Precio <Euro className="stroke-primary" size={16} />
           </span>
           <Input type="number" name="price" defaultValue={0} />
         </FormField>
         <FormField>
-          Tags (at least one)
+          Tags (al menos una)
           <TagsSelector onChange={handleTagsChange} className="justify-start" />
         </FormField>
         <div className="sm:col-span-2 sm:mx-auto">
           <FormField>
-            Photo (click to upload)
+            Foto (haz clic para subir)
             <InputPhoto name="photo" />
           </FormField>
         </div>
@@ -135,7 +135,7 @@ export default function NewAdvertPage() {
           className="w-full sm:col-span-2"
         >
           {loading && <Loader2 className="animate-spin" />}
-          {loading ? "Please wait" : "Create advert"}
+          {loading ? "Por favor, espera" : "Crear anuncio"}
         </Button>
       </form>
     </div>
