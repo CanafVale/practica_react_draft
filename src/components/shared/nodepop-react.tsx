@@ -2,7 +2,7 @@
 
 import type { SVGProps } from "react";
 
-const SVGComponent = (props: SVGProps<SVGSVGElement>) => (
+const SVGComponent = () => (
   <img
       src="/src/assets/logo-anapop.png"
       alt="AnaPop logo"
