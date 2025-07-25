@@ -1,5 +1,3 @@
-//
-
 
 import { isAxiosError } from "axios";
 

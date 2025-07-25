@@ -1,4 +1,3 @@
-//
 
 import { Link, NavLink } from "react-router";
 import AuthButton from "@/pages/auth/components/auth-button";

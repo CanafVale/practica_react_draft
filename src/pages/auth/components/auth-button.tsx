@@ -1,4 +1,3 @@
-//
 
 import { Link } from "react-router";
 import ConfirmationButton from "@/components/shared/confirmation-button";

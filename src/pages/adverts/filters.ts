@@ -1,4 +1,3 @@
-//
 
 import type { Advert, Filters } from "./types";
 

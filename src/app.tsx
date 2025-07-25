@@ -1,4 +1,3 @@
-//
 
 import { Navigate, Outlet, Route, Routes } from "react-router";
 import LoginPage from "./pages/auth/login-page";

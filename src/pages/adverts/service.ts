@@ -1,4 +1,3 @@
-//
 
 import { client } from "@/api/client";
 import type { Advert, CreateAdvertDto, Tags } from "./types";

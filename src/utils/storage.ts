@@ -1,4 +1,3 @@
-//
 
 type StorageKey = "auth";
 

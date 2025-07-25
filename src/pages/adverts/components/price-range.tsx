@@ -1,4 +1,3 @@
-//
 
 import { Slider } from "@/components/ui/slider";
 import { useState } from "react";
